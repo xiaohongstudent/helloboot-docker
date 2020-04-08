@@ -10,4 +10,8 @@ public class HelloController {
     public String hello(){
         return "hello docker springboot";
     }
+    @GetMapping("/helloAdd")
+    public String helloAdd(){
+        return "hello add";
+    }
 }
