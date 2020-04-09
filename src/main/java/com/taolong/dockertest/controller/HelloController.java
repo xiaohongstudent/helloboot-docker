@@ -14,4 +14,12 @@ public class HelloController {
     public String helloAdd(){
         return "hello add";
     }
+
+
+
+
+    @GetMapping("/helloremote")
+    public String helloRemote(){
+        return "hello helloremote";
+    }
 }
